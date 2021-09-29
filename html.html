@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+        <div  id ="007" class="header">
+            <div id="icon"><a href="#">&#9776;</i></a> </div>
+            <ul id="menu" class="hidden">
+                <li class="menu"><a class="tab" href="#">Чоловічий одяг</a>
+                    <ul class="sub-menu hidden">
+                        <li class="menu-item"><a href="#001">Одяг</a></li>
+                        <li class="menu-item"><a href="#002">Взуття</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a class="tab" href="#">Жіночий одяг</a>
+                    <ul class="hidden sub-menu">
+                        <li class="menu-item"><a href="#003">Одяг</a></li>
+                        <li class="menu-item"><a href="#004">Взуття</a></li>
+                    </ul> 
+                </li>
+                <li class="menu" ><a href="#005">Доставкаі оплата</a></li>
+                <li class="menu"><a  href="#006">Контакти</a></li>
+                <li id="Tell" class="menu menuInfo menoInfoHide"><a  href="#">Зворотній звязок</a>
+                 </li>
+                <li class="menu1" id="box-shop"><a  href="#">Корзина</a>
+                  <span class="cart__quantity">0</span>
+                </li>
+            </ul>
+            <div class="cart-content ">
+              <ul class="cart-content__list" >
+               <!--<li class="cart-content__item">
+                  <article class="cart-content__product cart-product">
+                    <img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg" alt="" class="cart-product__img">
+                    <div class="cart-product__text">
+                      <h3 class="cart-product__title">Одяг</h3>
+                      <span class="cart-product__price">190 789 ₽</span>
+                    </div>
+                    <button class="cart-product__delete" aria-label="Удалить товар"></button>
+                  </article>
+                </li>
+              --> 
+              </ul> 
+              <div class="cart-content__bottom">
+                <div class="cart-content__fullprice">
+                  <span>Сума</span>
+                  <span class="fullprice">0 грн</span>
+                </div>
+                <button  class="cart-content__btn btn">Перейти в корзину</button>
+                <button id="closeCart"> Закрить</button>
+              </div>
+            </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                          <h1>Ми перетелефонуємо вам скоро</h1>
+                        </div>
+                        <form id="mailform" class="modal-body"> 
+                         <input id="name" type="text" placeholder="Імя" class="modal__input">
+                         <input id="namber" type="text" placeholder="Номер телефону"class="modal__input">
+                         <input id="text" type="text" placeholder="Коментарій" class="modal__input">
+                        <button id="button" type="button" class="FormNext">Відправить</button>
+                        </form>
+                        <div id="errorMess" class="errorMess"></div>
+                      </div>
+                </div>
+        </div>
+        <button class="button">	<a href="#007">&#8657;</a></button>
+        <div class="tabcontainer">
+          <div class="tabcontent">
+            <img src="../shoping/img/man-spring.jpg" alt="#">
+        </div>
+        <div class="tabcontent">
+          <img src="../shoping/img/woman-spring.jpg" alt="#">
+      </div>
+        </div>
+        <div id="001" class="Men">
+          <div class="container-clothing">
+            <h1>Men Одяг </h1>
+            <div class="product-inner">
+             <article class="product">
+                <div class="product-wrap">
+                  <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                  <div class="actions">
+                    <a href="" class="quickview"></a>
+                </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title"><a href="#">Одяг</a></h3>
+                  <span class="price"> 1999</span>
+                  <button class="add-to-cart" >В корзину</button>
+                </div>
+               </article>
+              </div>
+
+              <div class="product-inner">
+                <article class="product">
+                   <div class="product-wrap">
+                     <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                     <div class="actions">
+                       <a href="" class="quickview"></a>
+                   </div>
+                   </div>
+                   <div class="product-info">
+                    <h3 class="product-title"><a href="#">Одяг</a></h3>
+                     <span class="price">1999</span>
+                     <button class="add-to-cart"  >В корзину</button>
+                   </div>
+                  </article>
+                 </div>
+
+                 <div class="product-inner">
+                  <article class="product">
+                     <div class="product-wrap">
+                       <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                       <div class="actions">
+                         <a href="" class="quickview"></a>
+                     </div>
+                     </div>
+                     <div class="product-info">
+                      <h3 class="product-title"><a href="#">Одяг</a></h3>
+                       <span class="price"> 1999</span>
+                       <button class="add-to-cart">В корзину</button>
+                     </div>
+                    </article>
+                   </div>
+
+                   <div class="product-inner">
+                    <article class="product">
+                       <div class="product-wrap">
+                         <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                         <div class="actions">
+                           <a href="" class="quickview"></a>
+                       </div>
+                       </div>
+                       <div class="product-info">
+                        <h3 class="product-title"><a href="#">Одяг</a></h3>
+                         <span class="price"> 1999</span>
+                         <button class="add-to-cart" >В корзину</button>
+                       </div>
+                      </article>
+                     </div>
+            </div>
+            <h1 id="002">Взуття</h1>
+            <div class="product-inner">
+              <article class="product">
+                <div class="product-wrap">
+                  <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                  <div class="actions">
+                    <a href="" class="quickview"></a>
+                </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title"><a href="#">Одяг</a></h3>
+                  <span class="price"> 1999</span>
+                  <button class="add-to-cart" >В корзину</button>
+                </div>
+              </article>
+              </div>
+              
+              <div class="product-inner">
+                <article class="product">
+                <div class="product-wrap">
+                  <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                  <div class="actions">
+                    <a href="" class="quickview"></a>
+                </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title"><a href="#">Одяг</a></h3>
+                  <span class="price"> 1999</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </article>
+              </div>
+
+              <div class="product-inner">
+                <article class="product">
+                <div class="product-wrap">
+                  <img id="imgProduct"src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                  <div class="actions">
+                    <a href="" class="quickview"></a>
+                </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title"><a href="#">Одяг</a></h3>
+                  <span class="price"> 1999</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </article>
+              </div>
+
+              <div class="product-inner">
+                <article class="product">
+                <div class="product-wrap">
+                  <img id="imgProduct" src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                  <div class="actions">
+                    <a href="" class="quickview"></a>
+                </div>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title"><a href="#">Одяг</a></h3>
+                  <span class="price"> 1999</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </article>
+              </div>
+        
+        </div>
+        <div class="Women">
+            <h1 id="003">Women Одяг</h1>
+        </div>
+        <div class="container-action">
+          <div id="008" class="promo">
+            Акція для нових клієнтів!
+            Ми цінуємо кожного клієнта і пропонуємо вам стати одним із них на дуже вигідних умовах.Покупка на суму більше 2000грн, знижка у розмірі 25%
+          </div>
+          <div class="endtime">Залишилося до кінця акції</div>
+          <div class="timer">
+            <div class="timer__block">
+                <span id="days">12</span>
+                днів
+            </div>
+            <div class="timer__block">
+                <span id="hours">20</span>
+                годин
+            </div>
+            <div class="timer__block">
+                <span id="minutes">56</span>
+                хвилин
+            </div>
+            <div class="timer__block">
+                <span id="seconds">20</span>
+                секунд
+            </div>
+        </div>
+        </div>
+        <div id="005">
+            <h1>Доставка і оплата</h1>
+            <img class="delivery-img" src="../shoping/img/nova_poshta.jpg" alt="#">
+            <table class="delivery"  border="1" cellspacing="2">
+              <tr>
+              <td>Вартість</td>
+              <td>По тарфу Нової пошти</td>
+              </tr>
+              <tr>
+              <td>Термін</td>
+              <td>Відпрака кожного пн ср пт</td>
+              </tr>
+              <tr>
+              <td>Сповіщення</td>
+              <td>Дзвінок оператора для уточнення даних</td>
+              </tr>
+              <tr>
+              <td>Оплата</td>
+              <td>Оплата при отриманні товару</td>
+              </tr>
+              <tr>
+              <td>Адрес доставки</td>
+              <td>Всі віділення Нової почти</td>
+              </tr>
+              </table>
+        </div>
+        <footer>
+            <h1 id='006' >Контакти</h1>
+            <div class="Address">
+            <h3>Адрес</h3>
+            <h3>Київ вул.Толстого, 56</h3>
+            </div>
+            <div class="Contact">
+             <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            <h3>Телефонуйте з 9.00-18.00</h3>
+            </div>
+        </footer>
+      <div class="downLoadWindow">
+        <span class="closeDownLoad">&times;</span>
+        <div class="textAction"> Акція для нових клієнтів!
+        </div>
+        <div class="timer1">
+          <div class="timer1__block">
+              <span id="days">12</span>
+              днів
+          </div>
+          <div class="timer1__block">
+              <span id="hours">20</span>
+              годин
+          </div>
+          <div class="timer1__block">
+              <span id="minutes">56</span>
+              хвилин
+          </div>
+          <div class="timer1__block">
+              <span id="seconds">20</span>
+              секунд
+          </div>
+      </div>
+      <button><a href="#008">Деталі</a> </button>
+      </div>
+
+    <script src="../shoping/js.js"></script>
+</body>
+</html>
